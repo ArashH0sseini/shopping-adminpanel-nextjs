@@ -9,7 +9,7 @@ function Weather() {
       <div className="w-full">
         <div className="flex items-center justify-between text-sm font-medium space-x-2">
           <h3>Weather</h3>
-          <BiDotsHorizontalRounded className="w-5 h-5 text-gray-500" />
+          <BiDotsHorizontalRounded className="w-10 h-8 p-1 transition-all delay-75 text-gray-500 hover:shadow-lg hover:border-2 rounded-lg cursor-pointer" />
         </div>
         <div className="mt-4 mb-2 flex items-center space-x-4">
           <Image src={Sun} width="60" height="60" alt="sun" />
