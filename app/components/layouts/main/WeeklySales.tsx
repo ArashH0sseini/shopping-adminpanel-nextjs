@@ -1,5 +1,5 @@
 import React from "react";
-import { SlQuestion } from "react-icons/Sl";
+import { SlQuestion } from "react-icons/sl";
 import { HiPlusSm } from "react-icons/hi";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
