@@ -8,7 +8,6 @@ function RightSideNavbar() {
   return (
     <div className="flex items-center space-x-5">
         <FaMoon
-          id="second-app-title"
           className="w-8 h-8 text-blue-600 bg-blue-100 hover:bg-slate-300 cursor-pointer p-2 rounded-full"
         />
         {/* <ReactTooltip

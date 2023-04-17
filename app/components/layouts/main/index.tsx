@@ -1,0 +1,5 @@
+export {default as Main} from './Main'
+export {default as WeeklySales} from './WeeklySales'
+export {default as TotalOrder} from './TotalOrder'
+export {default as MarketShare} from './MarketShare'
+export {default as Weather} from './Weather'
