@@ -1,5 +1,4 @@
 import React from "react";
-import { SlQuestion } from "react-icons/Sl";
 import { TiArrowSortedUp } from "react-icons/ti";
 
 function TotalOrder() {
