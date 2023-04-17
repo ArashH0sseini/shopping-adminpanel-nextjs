@@ -9,7 +9,7 @@ interface Props {
 function RunningProjectsItem({ title, percent, keyname }: Props) {
 
   return (
-    <div className="flex group items-center justify-between">
+    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 border-b-[1px]">
       <div className="flex items-center space-x-4">
         <span
           className={`bg-blue-100 text-blue-500 font-bold rounded-full flex items-center justify-center w-8 h-8`}

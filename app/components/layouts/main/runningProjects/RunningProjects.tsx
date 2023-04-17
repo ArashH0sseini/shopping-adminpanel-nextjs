@@ -11,7 +11,7 @@ function RunningProjects() {
           <h3 className="text-sm font-medium">Running Projects</h3>
           <RunningProjectsList />
         </div>
-        <div className="bg-white px-6 py-4 space-y-6 cursor-pointer">
+        <div className="bg-white cursor-pointer">
          <RunningProjectsItem title="Falcon" keyname="F" percent="38%" />
          <RunningProjectsItem title="Regin" keyname="R" percent="79%" />
          <RunningProjectsItem title="Boots4" keyname="B" percent="90%" />

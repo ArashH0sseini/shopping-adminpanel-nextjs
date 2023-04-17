@@ -8,7 +8,7 @@ function TotalSales() {
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-2">
           <h3 className="text-sm font-medium">Total Sales</h3>
-          <div className="flex items-center">
+          <div className="flex items-center space-x-2">
             <MonthList />
             <BiDotsHorizontalRounded className="w-10 h-8 p-1 transition-all delay-75 text-gray-500 hover:shadow-lg hover:border-2 rounded-lg cursor-pointer" />
           </div>
