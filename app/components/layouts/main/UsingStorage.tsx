@@ -1,10 +1,9 @@
 function UsingStorage() {
   return (
-    <div className="flex items-center justify-between rounded-md shadow-xl bg-white px-6 py-8 border-[1px] border-gray-200">
+    <div className="flex lg:col-span-2 items-center justify-between rounded-md shadow-xl bg-white px-6 py-8 border-[1px] border-gray-200">
       <div className="space-y-4 w-full">
         <p className="text-sm">
-          Using Storage <span className="font-semibold">1775.06 MB</span> of 2
-          GB
+          Using Storage <span className="font-semibold">1775.06 MB</span> of 2GB
         </p>
         <div className="relative bg-blue-100 w-full h-2 rounded-full">
           <div className="absolute top-0 left-0 w-full h-2 flex space-x-1">
