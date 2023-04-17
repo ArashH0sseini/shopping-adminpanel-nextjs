@@ -1,20 +1,21 @@
+import React from "react";
 
 interface Props {
   title: string;
-  color: string;
+  keyname: string;
   percent: string;
 }
 
-function RunningProjectsItem({ title, color, percent }: Props) {
+function RunningProjectsItem({ title, percent, keyname }: Props) {
   const date24 = new Date();
   const data24Time = date24.toLocaleTimeString("en-IT", { hour12: false });
   return (
     <div className="flex group items-center justify-between">
       <div className="flex items-center space-x-4">
         <span
-          className={`bg-${color}-100 text-${color}-500 text-lg font-bold rounded-full flex items-center justify-center w-8 h-8`}
+          className={`bg-blue-100 text-blue-500 font-bold rounded-full flex items-center justify-center w-8 h-8`}
         >
-          F
+          {keyname}
         </span>
         <p className="group-hover:underline">{title}</p>
         <span className="flex items-center justify-center bg-slate-100 text-blue-500 text-[12px] rounded-full font-bold w-10 h-5">

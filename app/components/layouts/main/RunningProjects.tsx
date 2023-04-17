@@ -12,11 +12,11 @@ function RunningProjects() {
           <RunningProjectsList />
         </div>
         <div className="bg-white px-6 py-4 space-y-6 cursor-pointer">
-         <RunningProjectsItem title="Falcon" color="blue" percent="38%" />
-         <RunningProjectsItem title="Regin" color="green" percent="79%" />
-         <RunningProjectsItem title="Boots4" color="cyan" percent="90%" />
-         <RunningProjectsItem title="Raven" color="orange" percent="40%" />
-         <RunningProjectsItem title="Slick" color="red" percent="70%" />
+         <RunningProjectsItem title="Falcon" keyname="F" percent="38%" />
+         <RunningProjectsItem title="Regin" keyname="R" percent="79%" />
+         <RunningProjectsItem title="Boots4" keyname="B" percent="90%" />
+         <RunningProjectsItem title="Raven" keyname="R" percent="40%" />
+         <RunningProjectsItem title="Slick" keyname="S" percent="70%" />
         </div>
         <div className="flex items-center justify-center p-2 cursor-pointer">
           <p className="text-blue-500 hover:underline text-base">Show all projects</p>
