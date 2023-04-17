@@ -1,4 +1,4 @@
-import { TotalOrder, WeeklySales, MarketShare, Weather,TotalSales, UsingStorage } from "./";
+import { TotalOrder, WeeklySales, MarketShare, Weather,TotalSales, UsingStorage,UpgradeStorage } from "./";
 import RunningProjects from "./runningProjects/RunningProjects";
 
 function Main() {
@@ -15,8 +15,9 @@ function Main() {
           <RunningProjects />
           <TotalSales />
         </div>
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <UsingStorage />
+          <UpgradeStorage />
         </div>
       </div>
     </main>
