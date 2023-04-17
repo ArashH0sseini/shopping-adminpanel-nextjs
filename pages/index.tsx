@@ -1,12 +1,12 @@
-import Image from 'next/image'
+import Navbar from '@/app/components/layouts/navbar/Navbar'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='text-red-600'>
-      lets start project
+    <div className='h-screen max-w-7xl m-auto'>
+      <Navbar />
     </div>
   )
 }
