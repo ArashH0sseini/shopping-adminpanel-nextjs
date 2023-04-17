@@ -1,4 +1,4 @@
-import { TotalOrder, WeeklySales, MarketShare, Weather,TotalSales } from "./";
+import { TotalOrder, WeeklySales, MarketShare, Weather,TotalSales, UsingStorage } from "./";
 import RunningProjects from "./runningProjects/RunningProjects";
 
 function Main() {
@@ -14,6 +14,9 @@ function Main() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <RunningProjects />
           <TotalSales />
+        </div>
+        <div>
+          <UsingStorage />
         </div>
       </div>
     </main>

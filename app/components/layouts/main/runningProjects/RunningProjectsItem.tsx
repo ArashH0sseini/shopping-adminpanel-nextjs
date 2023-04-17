@@ -7,8 +7,7 @@ interface Props {
 }
 
 function RunningProjectsItem({ title, percent, keyname }: Props) {
-  const date24 = new Date();
-  const data24Time = date24.toLocaleTimeString("en-IT", { hour12: false });
+
   return (
     <div className="flex group items-center justify-between">
       <div className="flex items-center space-x-4">
@@ -23,7 +22,7 @@ function RunningProjectsItem({ title, percent, keyname }: Props) {
         </span>
       </div>
       <div className="flex items-center justify-center space-x-4">
-        <p>{data24Time}</p>
+        <p className="text-sm">31:20:00</p>
         <div className="relative bg-blue-100 w-14 h-[6px] flex rounded-full">
           <span style={{width:`${percent}`}} className="absolute top-0 left-0 bg-blue-600 h-[6px] flex rounded-full"></span>
         </div>
