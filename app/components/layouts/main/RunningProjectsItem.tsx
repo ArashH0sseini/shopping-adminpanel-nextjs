@@ -1,5 +1,3 @@
-import React from "react";
-import { FaDivide } from "react-icons/fa";
 
 interface Props {
   title: string;

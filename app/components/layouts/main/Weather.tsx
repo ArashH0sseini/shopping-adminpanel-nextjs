@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { BiDotsHorizontalRounded } from "react-icons/Bi";
+import { BiDotsHorizontalRounded } from "react-icons/bi";
 import Sun from "../../../assets/images/weather-icon.png";
 
 function Weather() {
