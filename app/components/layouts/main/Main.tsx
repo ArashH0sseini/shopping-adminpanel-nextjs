@@ -9,7 +9,8 @@ import {
   BestSellingProducts,
   SharedFiles,
   ActiveUsers,
-  BandwidthSaved
+  BandwidthSaved,
+  TopProducts
 } from "./";
 import RunningProjects from "./runningProjects/RunningProjects";
 
@@ -38,6 +39,9 @@ function Main() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <ActiveUsers />
           <BandwidthSaved />
+        </div>
+        <div className="grid grid-cols-1">
+          <TopProducts />
         </div>
       </div>
     </main>

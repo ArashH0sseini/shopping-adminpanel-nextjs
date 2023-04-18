@@ -11,3 +11,4 @@ export {default as BestSellingProducts} from './bestSellingProducts/BestSellingP
 export {default as SharedFiles} from './SharedFiles'
 export {default as ActiveUsers} from './ActiveUsers'
 export {default as BandwidthSaved} from './BandwidthSaved'
+export {default as TopProducts} from './TopProducts'
