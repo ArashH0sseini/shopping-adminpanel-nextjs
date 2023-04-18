@@ -8,7 +8,7 @@ interface Props {
 
 function ActiveUsersItem({title,subtitle,image}:Props) {
   return (
-    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 border-b-[1px]">
+    <div className="flex group items-center justify-between w-full px-6 py-4 dark:bg-[#121E2D] border-gray-200 border-b-[1px] dark:border-[#121e2d]">
     <div className="flex space-x-4">
       <div className='relative'>
       <Image src={image} alt="" width="40" height="40" className="rounded-full" />

@@ -4,7 +4,7 @@ import MonthList from "./MonthList";
 
 function TotalSales() {
   return (
-    <div className="flex h-48 md:h-full rounded-md shadow-xl bg-white border-[1px] border-gray-200">
+    <div className="flex h-48 md:h-full rounded-md shadow-xl bg-white dark:bg-[#121e2d] border-[1px] border-gray-200 dark:border-[#121e2d]">
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-2">
           <h3 className="text-sm font-medium">Total Sales</h3>

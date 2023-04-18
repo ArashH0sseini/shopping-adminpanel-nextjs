@@ -8,13 +8,13 @@ import sharedImage5 from '../../../assets/images/docs.png'
 
 function SharedFiles() {
   return (
-    <div className="flex mt-4 lg:mt-0 rounded-md overflow-hidden shadow-xl bg-white border-[1px] border-gray-200">
+    <div className="flex mt-4 lg:mt-0 rounded-md overflow-hidden shadow-xl bg-white dark:bg-[#162231] border-[1px] border-gray-200 dark:border-[#121e2d]">
       <div className="w-full">
-        <div className="flex justify-between items-center px-6 py-4 bg-gray-100">
+        <div className="flex justify-between items-center px-6 py-4">
           <h3 className="text-sm font-medium">Shared Files</h3>
           <button className="text-sm  text-blue-500 hover:underline hover:text-blue-600">View All</button>
         </div>
-        <div className="bg-white cursor-pointer space-y-4">
+        <div className="bg-white dark:bg-[#121E2D] cursor-pointer space-y-4">
           <ShareFilesItem title="apple-smart" image={sharedImage1} subtitle="Antony" />
           <ShareFilesItem title="iphone.jpg" image={sharedImage4} subtitle="Antony" />
           <ShareFilesItem title="Falcon v1.8.2" image={sharedImage3} subtitle="Jane" />

@@ -10,7 +10,7 @@ import Avatar5 from '../../../assets/images/5.jpg'
 
 function ActiveUsers() {
   return (
-    <div className="flex items-center justify-between rounded-md shadow-xl bg-gray-100 border-[1px] border-gray-200">
+    <div className="flex items-center justify-between rounded-md shadow-xl bg-gray-100 dark:bg-[#162231] border-[1px] border-gray-200 dark:border-[#121e2d]">
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-2">
           <h3 className="text-sm font-medium">Active Users</h3>

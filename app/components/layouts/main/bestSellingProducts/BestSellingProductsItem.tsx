@@ -17,7 +17,7 @@ function BestSellingProductsItem({
   image,
 }: Props) {
   return (
-    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 border-b-[1px]">
+    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 dark:border-gray-800 dark:bg-[#121e2d] border-b-[1px]">
       <div className="flex space-x-4">
         <Image src={image} alt="" width="60" height="40" className="rounded-sm" />
         <div className="flex flex-col">
@@ -26,14 +26,14 @@ function BestSellingProductsItem({
         </div>
       </div>
       <div className="flex items-center justify-center space-x-4">
-        <p className="text-sm w-10">{price}</p>
-        <div className="relative bg-blue-100 w-20 h-[5px] flex rounded-full">
+        <p className="text-sm w-10 dark:text-gray-500">{price}</p>
+        <div className="relative bg-blue-100 dark:bg-gray-700 w-20 h-[5px] flex rounded-full">
           <span
             style={{ width: `${percent}` }}
             className="absolute top-0 left-0 bg-blue-600 h-[5px] flex rounded-full"
           ></span>
         </div>
-        <p className="text-sm w-5">{percent}</p>
+        <p className="text-sm w-5 dark:text-gray-500">{percent}</p>
       </div>
     </div>
   );

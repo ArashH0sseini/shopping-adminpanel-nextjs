@@ -10,7 +10,7 @@ interface Props {
 
 function ShareFilesItem({ title, subtitle, image }: Props) {
   return (
-    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 border-b-[1px]">
+    <div className="flex group items-center justify-between w-full px-6 py-4 border-gray-200 dark:border-gray-800 border-b-[1px]">
       <div className="flex items-center justify-between w-full">
         <div className="flex items-center space-x-4">
           <Image
@@ -31,8 +31,8 @@ function ShareFilesItem({ title, subtitle, image }: Props) {
           </div>
         </div>
         <div className="hidden group-hover:flex items-center justify-center space-x-2">
-          <AiOutlineCloudDownload className="w-9 h-8 p-1 text-gray-600 bg-gray-100 rounded-sm border-2" />
-          <CiEdit className="w-9 h-8 p-1 text-gray-600 bg-gray-100 rounded-sm border-2" />
+          <AiOutlineCloudDownload className="w-9 h-8 p-1 text-gray-600 bg-gray-100 dark:bg-[#0B1727] dark:text-gray-400 dark:border-gray-700 rounded-sm border-2" />
+          <CiEdit className="w-9 h-8 p-1 text-gray-600 bg-gray-100 dark:bg-[#0B1727] dark:text-gray-400 dark:border-gray-700 rounded-sm border-2" />
         </div>
       </div>
     </div>

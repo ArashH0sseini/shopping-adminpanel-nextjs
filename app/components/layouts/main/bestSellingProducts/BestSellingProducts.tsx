@@ -9,7 +9,7 @@ import productImage5 from '../../../../assets/images/13.png'
 
 function BestSellingProducts() {
   return (
-    <div className="flex col-span-2 items-center justify-between  rounded-md shadow-xl bg-gray-100 border-[1px] border-gray-200">
+    <div className="flex col-span-2 items-center justify-between  rounded-md shadow-xl bg-gray-100 dark:bg-[#162231] border-[1px] border-gray-200 dark:border-[#121e2d]">
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-4">
           <h3 className="text-sm font-medium">Best Selling Products</h3>
@@ -25,7 +25,7 @@ function BestSellingProducts() {
         </div>
         <div className="flex items-center justify-between px-6 p-1 cursor-pointer">
           <BestSellingProductsList />
-          <button className="bg-white text-sm p-1 px-3 border-2 border-gray-200 hover:shadow-lg shadow-black font-medium rounded-md">View All</button>
+          <button className="bg-white dark:bg-[#0B1727] dark:text-gray-400 text-sm p-1 px-3 border-2 border-gray-200 dark:border-gray-800 hover:shadow-lg shadow-black font-medium rounded-md ">View All</button>
         </div>
       </div>
     </div>
