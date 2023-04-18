@@ -16,15 +16,15 @@ function LeftSideNavbar() {
       <div className="hidden lg:flex">
         <form
           className="flex items-center space-x-2 justify-center rounded-full py-1 px-4 
-    bg-white max-w-md mx-auto border-2 border-gray-200"
+    bg-white dark:bg-[#0B1727] w-80 mx-auto border-2 border-gray-200 dark:border-gray-800"
         >
           <button hidden>Search</button>
-          <FaSearch className="w-4 h-4 font-bold text-gray-300" />
+          <FaSearch className="w-4 h-4 font-bold text-gray-300 dark:text-gray-600" />
           <input
             type="text"
             placeholder="Search..."
             className="flex-1 outline-none bg-transparent
-         placeholder:text-gray-300 text-lg font-semibold"
+         placeholder:text-gray-300 dark:placeholder:text-gray-400 text-lg font-semibold"
           />
         </form>
       </div>
