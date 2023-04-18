@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/components/layouts/main/runningProjects/RunningProjectsList.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/components/layouts/main/runningProjects/RunningProjectsList.jsx", "app/components/layouts/main/BandwidthSavedMonthList.jsx"],
   "exclude": ["node_modules"]
 }
