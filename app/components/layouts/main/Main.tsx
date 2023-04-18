@@ -8,6 +8,7 @@ import {
   UpgradeStorage,
   BestSellingProducts,
   SharedFiles,
+  ActiveUsers
 } from "./";
 import RunningProjects from "./runningProjects/RunningProjects";
 
@@ -29,9 +30,12 @@ function Main() {
           <UsingStorage />
           <UpgradeStorage />
         </div>
-        <div className="flex w-full gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-4">
           <BestSellingProducts />
           <SharedFiles />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <ActiveUsers />
         </div>
       </div>
     </main>

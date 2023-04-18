@@ -9,7 +9,7 @@ import productImage5 from '../../../../assets/images/13.png'
 
 function BestSellingProducts() {
   return (
-    <div className="flex w-[60%] items-center justify-between  rounded-md shadow-xl bg-gray-100 border-[1px] border-gray-200">
+    <div className="flex col-span-2 items-center justify-between  rounded-md shadow-xl bg-gray-100 border-[1px] border-gray-200">
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-4">
           <h3 className="text-sm font-medium">Best Selling Products</h3>

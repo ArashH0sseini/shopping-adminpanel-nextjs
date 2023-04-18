@@ -13,7 +13,7 @@ function LeftSideNavbar() {
         <span className="text-blue-500 font-bold text-3xl">falcon</span>
       </div>
 
-      <div>
+      <div className="hidden lg:flex">
         <form
           className="flex items-center space-x-2 justify-center rounded-full py-1 px-4 
     bg-white max-w-md mx-auto border-2 border-gray-200"

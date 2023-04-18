@@ -8,7 +8,7 @@ import sharedImage5 from '../../../assets/images/docs.png'
 
 function SharedFiles() {
   return (
-    <div className="flex w-[40%] rounded-md overflow-hidden shadow-xl bg-white border-[1px] border-gray-200">
+    <div className="flex mt-4 lg:mt-0 rounded-md overflow-hidden shadow-xl bg-white border-[1px] border-gray-200">
       <div className="w-full">
         <div className="flex justify-between items-center px-6 py-4 bg-gray-100">
           <h3 className="text-sm font-medium">Shared Files</h3>
