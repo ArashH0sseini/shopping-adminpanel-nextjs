@@ -13,6 +13,7 @@ function WeeklySales() {
             anchorId="second-app-title"
             place="top"
             content="Last week sales"
+            className="z-20"
           />
           <SlQuestion id="second-app-title" className="text-gray-400" />
         </div>

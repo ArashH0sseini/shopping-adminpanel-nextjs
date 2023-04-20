@@ -27,13 +27,13 @@ function RightSideNavbar() {
           content="Switch to dark"
         /> */}
       <div className="relative">
-        <FaShoppingCart className="w-6 h-6 text-gray-500 hover:text-gray-700 cursor-pointer" />
+        <FaShoppingCart className="w-6 h-6 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 cursor-pointer" />
         <span className="absolute text-xs -top-1 -right-1 w-4 h-4 bg-orange-500 text-white rounded-full flex items-center justify-center">
           1
         </span>
       </div>
       <div className="relative">
-        <BsFillBellFill className="w-6 h-6 text-gray-500 hover:text-gray-700 cursor-pointer" />
+        <BsFillBellFill className="w-6 h-6 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 cursor-pointer" />
         <span className="absolute text-xs -top-1 -right-1 w-4 h-4 border-2 border-[#EDF2F9] bg-blue-500 text-white rounded-full flex items-center justify-center"></span>
       </div>
       <div className="w-8 h-8 rounded-full overflow-hidden">
