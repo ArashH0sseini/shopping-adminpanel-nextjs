@@ -1,6 +1,8 @@
-import DotsMenu from "../../common/DotsMenu";
+import DotsMenu from "@/app/components/common/DotsMenu";
+import { useTranslation } from "react-i18next";
 
 function TopProducts() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="flex h-60 mt-4 lg:mt-0 rounded-md overflow-hidden shadow-xl bg-white dark:bg-[#162231] border-[1px] border-gray-200 dark:border-[#121e2d]">
       <div className="w-full">
@@ -13,7 +15,9 @@ function TopProducts() {
             <DotsMenu />
           </div>
         </div>
-        <div className="bg-white dark:bg-[#121E2D] cursor-pointer space-y-4 flex items-center justify-center h-full">نمودار</div>
+        <div className="bg-white dark:bg-[#121E2D] cursor-pointer space-y-4 flex items-center justify-center h-full">
+          نمودار
+        </div>
       </div>
     </div>
   );

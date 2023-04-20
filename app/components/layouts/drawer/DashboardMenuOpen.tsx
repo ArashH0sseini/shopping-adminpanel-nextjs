@@ -16,7 +16,7 @@ export default function DashboardMenuOpen({ title }: Prop) {
         onClick={() => setOpen(!open)}
         className="flex justify-between items-center w-full"
       >
-        <p className="text-[15px] font-semibold">
+        <p className="text-[15px] font-semibold ">
           {title}
         </p>
         {open ? (
