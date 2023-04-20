@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/components/layouts/main/runningProjects/RunningProjectsList.jsx", "app/components/layouts/main/BandwidthSavedMonthList.jsx", "darkmode.js", "app/components/layouts/drawer/DashboardDropDown.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "app/components/layouts/main/runningProjects/RunningProjectsList.jsx", "app/components/layouts/main/BandwidthSavedMonthList.jsx", "darkmode.js", "app/components/layouts/drawer/DashboardDropDown.jsx", "app/components/layouts/navbar/AccountMenu.jsx"],
   "exclude": ["node_modules"]
 }
