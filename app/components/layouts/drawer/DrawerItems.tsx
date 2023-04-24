@@ -44,45 +44,46 @@ function DrawerItems() {
       <DrawerDivider title="App" />
       <DrawerItem title="Calender" icon={<FaCalendarAlt />} />
       <DrawerItem title="Chat" icon={<HiChatBubbleLeftRight />} />
-      <DrawerMenuDropdownClose title="Email" icon={<HiMailOpen />} />
+      <DrawerMenuDropdownClose title="Email" icon={<HiMailOpen />} items={[404,500]} />
       <DrawerMenuDropdownClose
         title="Evants"
         icon={<BsFillCalendarEventFill />}
+        items={[404,500]}
       />
-      <DrawerMenuDropdownClose title="E commerce" icon={<FaShoppingCart />} />
+      <DrawerMenuDropdownClose title="E commerce" icon={<FaShoppingCart />} items={[404,500]} />
       <DrawerItem title="Kanban" icon={<BsFillKanbanFill />} />
-      <DrawerMenuDropdownClose title="Social" icon={<IoShareSocialSharp />} />
+      <DrawerMenuDropdownClose title="Social" icon={<IoShareSocialSharp />} items={[404,500]} />
 
       {/* Pages Section */}
       <DrawerDivider title="Pages" />
       <DrawerItem title="Starter" icon={<FaFlag />} />
       <DrawerItem title="Landing" icon={<TbWorld />} />
-      <DrawerMenuDropdownClose title="Authentication" icon={<FaLock />} />
-      <DrawerMenuDropdownClose title="User" icon={<FaUser />} />
-      <DrawerMenuDropdownClose title="Pricing" icon={<IoMdPricetags />} />
+      <DrawerMenuDropdownClose title="Authentication" icon={<FaLock />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="User" icon={<FaUser />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Pricing" icon={<IoMdPricetags />} items={[404,500]} />
       <DrawerItem title="Faq" icon={<FaQuestionCircle />} />
-      <DrawerMenuDropdownClose title="Errors" icon={<IoWarning />} />
-      <DrawerMenuDropdownClose title="Miscellaneous" icon={<BsFillPinFill />} />
+      <DrawerMenuDropdownClose title="Errors" icon={<IoWarning />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Miscellaneous" icon={<BsFillPinFill />} items={[404,500]} />
 
       {/* Modules Section */}
       <DrawerDivider title="Modules" />
       <DrawerItem title="Forms" icon={<HiDocumentText />} />
       <DrawerItem title="Tables" icon={<FaTable />} />
-      <DrawerMenuDropdownClose title="Charts" icon={<FaChartLine />} />
-      <DrawerMenuDropdownClose title="Icons" icon={<TbIcons />} />
-      <DrawerMenuDropdownClose title="Maps" icon={<FaMap />} />
+      <DrawerMenuDropdownClose title="Charts" icon={<FaChartLine />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Icons" icon={<TbIcons />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Maps" icon={<FaMap />} items={[404,500]} />
       <DrawerItem title="Components" icon={<FaPuzzlePiece />} />
-      <DrawerMenuDropdownClose title="Utilities" icon={<FaFire />} />
-      <DrawerMenuDropdownClose title="Widgets" icon={<MdWidgets />} />
-      <DrawerMenuDropdownClose title="Multi level" icon={<FaLayerGroup />} />
+      <DrawerMenuDropdownClose title="Utilities" icon={<FaFire />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Widgets" icon={<MdWidgets />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Multi level" icon={<FaLayerGroup />} items={[404,500]} />
 
       {/* Document Section */}
       <DrawerDivider title="Document" />
       <DrawerItem title="Getting started" icon={<FaRocket />} />
       <DrawerItem title="Customaization" icon={<AiFillTool />} />
       <DrawerItem title="Gulp" icon={<FaGulp />} />
-      <DrawerMenuDropdownClose title="Design file" icon={<FaPalette />} />
-      <DrawerMenuDropdownClose title="Changelog" icon={<DiGitBranch />} />
+      <DrawerMenuDropdownClose title="Design file" icon={<FaPalette />} items={[404,500]} />
+      <DrawerMenuDropdownClose title="Changelog" icon={<DiGitBranch />} items={[404,500]} />
     </>
   );
 }

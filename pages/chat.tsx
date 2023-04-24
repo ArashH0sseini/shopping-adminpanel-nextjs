@@ -50,7 +50,22 @@ function Chat() {
               />
               <ChatItem
                 title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
+                subtitle="Hello!"
+                image={Avatar}
+              />
+              <ChatItem
+                title="Antony Hopkins"
+                subtitle="Say hi to your new friend"
+                image={Avatar}
+              />
+              <ChatItem
+                title="Antony Hopkins"
+                subtitle="You: Yes it is"
+                image={Avatar}
+              />
+              <ChatItem
+                title="Antony Hopkins"
+                subtitle="🙂"
                 image={Avatar}
               />
               <ChatItem
@@ -65,7 +80,7 @@ function Chat() {
               />
               <ChatItem
                 title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
+                subtitle="👋"
                 image={Avatar}
               />
               <ChatItem
@@ -75,22 +90,7 @@ function Chat() {
               />
               <ChatItem
                 title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
-                image={Avatar}
-              />
-              <ChatItem
-                title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
-                image={Avatar}
-              />
-              <ChatItem
-                title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
-                image={Avatar}
-              />
-              <ChatItem
-                title="Antony Hopkins"
-                subtitle="Antony sent 6 photos"
+                subtitle="😮"
                 image={Avatar}
               />
               <ChatItem
